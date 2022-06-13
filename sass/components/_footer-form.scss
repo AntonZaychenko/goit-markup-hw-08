@@ -1,0 +1,65 @@
+.footer-form__title {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-top: 12px;
+}
+.footer-form__input {
+    width: 358px;
+    color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    &:hover, &:focus {
+        border-color: $color-hover;
+    }
+    padding: 15px 0;
+    padding-left:16px ;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-button {
+    
+    background-color: $color-hover;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    border: 1px solid transparent;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;    
+    color: #FFFFFF;
+    padding-left: 29px;
+    padding-right: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 50px;
+    margin-left: 12px;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover, &:focus, &:active {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+}
+.footer-button__icon {
+    width: 24px;
+    height: 24px;
+    padding-top: 13px;
+    margin-left: 10px;
+    box-sizing: content-box;
+}
+.footer-form--position {
+    display: flex;
+    max-height: 50px;
+
+}
