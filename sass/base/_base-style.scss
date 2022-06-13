@@ -42,3 +42,10 @@ body {
     margin: 0;
     color: $color-main;
 }
+li:focus,
+input:focus,
+a:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
