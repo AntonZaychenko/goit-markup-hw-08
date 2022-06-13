@@ -1,9 +1,7 @@
 .work {
     background-color: $backgroundColorWhite;
     box-sizing: none;
-    .container {
-        padding-bottom: 94px;
-    }
+    padding-bottom: 94px;
     
 }
 .work__title {
@@ -15,6 +13,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: $color-main;
+    margin-bottom: 50px;
 }
 .work-list {
     display: flex;

@@ -1,5 +1,7 @@
 .container {
-  width: 1170px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,10 +17,6 @@
 
 footer {
   box-sizing: border-box;
-}
-
-.container--padding {
-  padding: 94px 0;
 }
 
 h1, h2, h3 {
@@ -41,6 +39,7 @@ a {
 ul {
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 
 body {
@@ -245,6 +244,7 @@ textarea:focus {
 
 .feauture {
   background-color: #FFFFFF;
+  padding: 94px 0;
 }
 
 .feauture.container {
@@ -304,9 +304,6 @@ textarea:focus {
 .work {
   background-color: #FFFFFF;
   box-sizing: none;
-}
-
-.work .container {
   padding-bottom: 94px;
 }
 
@@ -319,6 +316,7 @@ textarea:focus {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .work-list {
@@ -367,6 +365,7 @@ textarea:focus {
 
 .team {
   background-color: #F5F4FA;
+  padding: 94px 0;
 }
 
 .team-list {
@@ -394,10 +393,11 @@ textarea:focus {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .team-list__subtitle {
@@ -464,9 +464,6 @@ textarea:focus {
 
 .client {
   background-color: #FFFFFF;
-}
-
-.client .container {
   padding: 94px 0;
 }
 
@@ -525,6 +522,7 @@ textarea:focus {
 
 .team {
   background-color: #F5F4FA;
+  padding: 94px 0;
 }
 
 .team-list {
@@ -552,10 +550,11 @@ textarea:focus {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .team-list__subtitle {
@@ -622,11 +621,8 @@ textarea:focus {
 
 .footer {
   background-color: #2F303A;
-  display: flex;
-}
-
-.footer .container {
   padding: 60px 0;
+  display: flex;
 }
 
 .address {
@@ -816,6 +812,7 @@ textarea:focus {
 
 .portfolio {
   background-color: #fff;
+  padding: 94px 0;
 }
 
 .portfolio__title {
@@ -878,7 +875,7 @@ textarea:focus {
   margin-right: 0;
 }
 
-.examples-list__item:nth-last-of-type(-3 + n) {
+.examples-list__item:nth-child(n + 6) {
   margin-bottom: 0;
 }
 
