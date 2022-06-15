@@ -1,5 +1,4 @@
 .container {
-    width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -9,6 +8,18 @@
     &--main-nav {
         display: flex;
         justify-content: space-between;
+    }
+    @media screen and (min-width: 480px) {
+        width: 450px;
+        
+    }
+    @media screen and (min-width: 768px) {
+        width: 738px;
+        
+    }
+    @media screen and (min-width: 1200px) {
+        width: 1170px;
+        
     }
 }
 

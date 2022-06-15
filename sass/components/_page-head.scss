@@ -1,4 +1,21 @@
 .page-head {
-    background-color: $backgroundColorWhite;
-    border: 1px solid #ECECEC;
+    background-color: #fff;
+    border-bottom: 1px solid #ECECEC;
+}
+.menu-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0;
+    margin-left: 276px;
+    margin-top: 10px;
+    
+}
+.menu-button__icon {
+    width: 24px;
+    height: 16px;
 }

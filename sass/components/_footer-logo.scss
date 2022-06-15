@@ -2,15 +2,20 @@
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+    font-size: 24px;
+    line-height: 28px; 
     letter-spacing: 0.03em;
-    color: white;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover, &:focus {
-    color: $color-hover;
-    }
+    color: #fff;
     margin-bottom: 20px;
+    &:hover, &:focus, &:active {
+        color: $color-hover;
+    }
+    @media screen and (min-width: 480px)  {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         
+     }
 }
 .footer__logo--text {
     color: $color-hover;
