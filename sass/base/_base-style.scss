@@ -9,24 +9,26 @@
         display: flex;
         justify-content: space-between;
     }
+    @media screen and (min-width: 320px) {
+        width: 320px;
+        
+    }
+    
     @media screen and (min-width: 480px) {
-        width: 450px;
+        width: 480px;
         
     }
     @media screen and (min-width: 768px) {
-        width: 738px;
+        width: 768px;
         
     }
     @media screen and (min-width: 1200px) {
-        width: 1170px;
+        width: 1200px;
         
     }
 }
 
-* {
-    box-sizing: inherit;
 
-}
 footer {
     box-sizing: border-box;
 }
@@ -59,4 +61,9 @@ a:focus,
 button:focus,
 textarea:focus {
     outline: none;
+}
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+    letter-spacing: 0.03em;
 }

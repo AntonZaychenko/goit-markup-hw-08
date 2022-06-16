@@ -1,7 +1,11 @@
 .footer {
-    padding: 60px 0;
     background-color: #2F303A;
-    .container {
-        width: 480px;
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        padding: 60px 0;
+        text-align: center;
+      }
+      @media screen and (min-width: 768px) {
+        padding: 60px 0;
+        
     }
 }

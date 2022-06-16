@@ -3,20 +3,15 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-    line-height: 28px; 
-    letter-spacing: 0.03em;
+    line-height: 28px;
+    
     color: #fff;
+    display: inline-block;
     margin-bottom: 20px;
+    &--text {
+        color: $color-hover;
+    }
     &:hover, &:focus, &:active {
         color: $color-hover;
     }
-    @media screen and (min-width: 480px)  {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-         
-     }
-}
-.footer__logo--text {
-    color: $color-hover;
 }
