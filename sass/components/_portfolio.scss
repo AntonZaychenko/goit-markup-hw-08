@@ -1,10 +1,14 @@
 .portfolio {
     background-color: #fff;
+    padding: 60px 0;
     @media screen and (min-width: 480px) {
         padding: 60px 0;
            
        }
-   
+       @media screen and (min-width: 1200px) {
+        padding: 94px 0;
+        
+    }
 }
 .portfolio__title {
     display: none;

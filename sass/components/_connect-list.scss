@@ -1,32 +1,52 @@
 .connect {
+    margin-bottom: 30px;
     @media screen and (min-width: 480px) {
         margin-bottom: 60px;
         
     }
-    @media screen and (min-width: 768px) {
-        margin-right: 89px;
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+        margin: 0;
         text-align: center;
+        width: 232px;
+        margin-left: 165px;
     }
     @media screen and (min-width: 1200px) {
-        margin-right: 93px;
+      margin-left: 70px;
         
     }
 }
 .connect__title {
+    color:#fff;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    @media screen and (min-width: 480px) {
-        margin-bottom: 20px;
+    @media screen and (min-width: 1200px) {
+        text-align: left;
         
     }
 }
 .footer-list {
     display: flex;
-    justify-content: center;
+        
+        align-items: center;
+    @media screen and (min-width: 480px) {
+        justify-content: center;
+        
+    }
+    @media screen and (min-width: 1200px) {
+        
+        justify-content: flex-start;
+    }
+}
+.footer-list__icon {
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+
 }
 .footer-list__item {
     margin-right: 10px;
@@ -35,19 +55,14 @@
     }
 }
 .footer-list__link {
-    width: 44px;
-    height: 44px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
     &:hover, &:focus, &:active {
-        background-color: $color-hover;
+        background-color:  $color-hover;
     }
-}
-.footer-list__icon {
-    width: 20px;
-    height: 20px;
-    fill: #fff;
 }

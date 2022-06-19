@@ -26,7 +26,7 @@
     <header class="page-head">
       <div class="container container--main-nav">
         <nav class="main-nav">
-          <a href="./index.html" class="logo"><span class="logo--text">Web</span>Studio</a>
+          <a href="./index.html" class="logo " id="logo"><span class="logo--text">Web</span>Studio</a>
           <ul class="site-nav">
             <li class="site-nav__item">
               <a href="" class="site-nav__link site-nav__link--active">Студия</a>
@@ -38,19 +38,25 @@
               <a href="" class="site-nav__link">Контакты</a>
             </li>
           </ul>
-          <!-- <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button aria-controls="menu-container">
-            <svg class="menu-button__icon" 
+          <button  
+          class="menu-button "  
+          data-menu-button 
+          aria-controls="menu-container" 
+          >
+            <svg  
             width="40" 
             height="40"
             aria-label="Переключатель мобильного меню"
 
             >
+            <use href="./images/icons.svg#menu-close" class="icon-close"></use>
             <use href="./images/icons.svg#menu" class="icon-menu"></use>
-              <use href="./images/icons.svg#menu-close" class="icon-close"></use>
+              
               
             </svg>
           </button>
-          <div class="menu-container is-open" data-menu id="menu-container">
+          <div class="menu-container " data-menu id="menu-container">
+            
             <ul class="menu-container__list">
               <li class="menu-container__item">
                 <a href="./index.html" class="menu-container__link menu-container__link--active">Студия</a>
@@ -84,7 +90,7 @@
                 <a href="" class="menu-connected__link">LinkedIn</a>
               </li>
             </ul>
-          </div> -->
+          </div>
         </nav>
         <ul class="cont-nav">
           <li class="cont-nav__item">
@@ -633,6 +639,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
