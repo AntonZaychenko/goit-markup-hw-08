@@ -114,6 +114,7 @@
     padding-bottom: 24px;
 }
 .team-link__icon {
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
@@ -125,6 +126,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
     &:hover, &:focus, &:active {
         background-color: $color-hover;
         .team-link__icon {
