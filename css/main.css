@@ -80,6 +80,10 @@ body {
   letter-spacing: 0.03em;
 }
 
+body.modal-open {
+  overflow-y: hidden;
+}
+
 .logo {
   display: block;
   font-family: 'Raleway';
@@ -1687,6 +1691,7 @@ header {
   background-color: rgba(0, 0, 0, 0.2);
   opacity: 1;
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow-y: scroll;
 }
 
 .backdrop .icon {
@@ -1965,25 +1970,30 @@ textarea {
 .menu-container {
   background-color: #fff;
   position: absolute;
-  top: 100%;
+  top: 60px;
   left: 0;
   background-color: #fff;
   width: 100%;
-  margin: 0 auto;
-  max-height: 796px;
+  height: 716px;
   padding-top: 10px;
   padding-right: 25px;
   display: none;
   padding-left: 40px;
   padding-bottom: 20px;
+  overflow-y: scroll;
+}
+
+.menu-container__cont {
+  margin: 0;
 }
 
 .main-nav.is-open .menu-container {
   display: block;
   display: flex;
   flex-direction: column;
-  min-height: 716px;
   justify-content: space-between;
+  position: fixed;
+  height: 90%;
 }
 
 .main-nav.is-open .logo {
@@ -2042,10 +2052,6 @@ textarea {
   margin-bottom: 0;
 }
 
-.menu-container__cont {
-  margin-bottom: 64px;
-}
-
 .link-container__cont {
   font-family: 'Roboto';
   font-style: normal;
@@ -2098,5 +2104,13 @@ textarea {
   background-color: transparent;
   border: none;
   padding: 0;
+}
+
+.menu--position {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  max-height: 186px;
 }
 /*# sourceMappingURL=main.css.map */
