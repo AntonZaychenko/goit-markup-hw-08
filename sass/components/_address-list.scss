@@ -8,7 +8,8 @@
         width: 232px;
         display: inline-block;
         text-align: center;
-        margin-left: 76px;
+        display: flex;
+        flex-direction: column;
     }
     @media screen and (min-width: 1200px) {
         margin: 0;

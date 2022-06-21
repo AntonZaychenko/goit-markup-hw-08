@@ -24,9 +24,9 @@
     <!-- Верхняя линия -->
 
     <header class="page-head">
-      <div class="container container--main-nav">
-        <nav class="main-nav">
-          <a href="./index.html" class="logo " id="logo"><span class="logo--text">Web</span>Studio</a>
+      <div class="container container--main-nav" >
+        <nav class="main-nav" data-menu >
+          <a href="./index.html" class="logo " id="logo" ><span class="logo--text">Web</span>Studio</a>
           <ul class="site-nav">
             <li class="site-nav__item">
               <a href="" class="site-nav__link site-nav__link--active">Студия</a>
@@ -38,6 +38,7 @@
               <a href="" class="site-nav__link">Контакты</a>
             </li>
           </ul>
+          
           <button  
           class="menu-button "  
           data-menu-button 
@@ -55,7 +56,7 @@
               
             </svg>
           </button>
-          <div class="menu-container " data-menu id="menu-container">
+          <div class="menu-container "  id="menu-container">
             
             <ul class="menu-container__list">
               <li class="menu-container__item">
@@ -239,7 +240,15 @@
           <ul class="team-list">
             <li class="team-list__item team-list__item--box">
               <img
-                src="./images/man-work-retin.jpg"
+                srcset="
+                ./images/man270@2x.jpg 270w,
+                ./images/man270.jpg 270w,
+                ./images/man354.jpg 354w,
+                ./images/man354@2x.jpg 354w,
+                ./images/man450.jpg 450w,
+                ./images/man450@2x.jpg 450w,
+                "
+                src="./images/man270.jpg"
                 alt="Дезайнер"
                 
                 class="team-list__img"
@@ -284,7 +293,15 @@
 
             <li class="team-list__item team-list__item--box">
               <img
-                src="./images/woman-work-retin.jpg"
+              srcset="
+              ./images/woman270@2x.jpg 270w,
+                ./images/woman270.jpg 270w,
+                ./images/woman354.jpg 354w,
+                ./images/woman354@2x.jpg 354w,
+                ./images/woman450.jpg 450w,
+                ./images/woman450@2x.jpg 450w,
+              "
+                src="./images/woman270.jpg"
                 alt="Разработчик"
                 
                 class="team-list__img"
@@ -329,7 +346,15 @@
 
             <li class="team-list__item team-list__item--box">
               <img
-                src="./images/man-work2-retin.jpg"
+              srcset="
+              ./images/2man270@2x.jpg 270w,
+                ./images/2man270.jpg 270w,
+                ./images/2man354.jpg 354w,
+                ./images/2man354@2x.jpg 354w,
+                ./images/2man450.jpg 450w,
+                ./images/2man450@2x.jpg 450w,
+              "
+                src="./images/2man270.jpg"
                 alt="Маркетинг"
                
                 class="team-list__img"
@@ -374,7 +399,15 @@
 
             <li class="team-list__item team-list__item--box">
               <img
-                src="./images/man-work3-retin.jpg"
+              srcset="
+              ./images/3man270@2x.jpg 270w,
+                ./images/3man270.jpg 270w,
+                ./images/3man354.jpg 354w,
+                ./images/3man354@2x.jpg 354w,
+                ./images/3man450.jpg 450w,
+                ./images/3man450@2x.jpg 450w,
+              "
+                src="./images/3man270.jpg"
                 alt="Дезайнер"
                 
                 class="team-list__img"
