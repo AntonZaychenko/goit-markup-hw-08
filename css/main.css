@@ -1979,7 +1979,7 @@ textarea {
   padding-right: 25px;
   display: none;
   padding-left: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   overflow-y: scroll;
 }
 
@@ -1993,7 +1993,7 @@ textarea {
   flex-direction: column;
   justify-content: space-between;
   position: fixed;
-  height: 90%;
+  height: 95%;
 }
 
 .main-nav.is-open .logo {
