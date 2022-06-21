@@ -44,23 +44,23 @@
 .team-list__img {
     display: block;
     margin-bottom: 30px;
-    max-width: 450px;
+    max-width: 100%;
     
-   @media screen and (min-width: 480px) {
+//    @media screen and (min-width: 480px) {
        
-        width: 450px;
+//         width: 450px;
        
-    }
-    @media screen and (min-width: 768px) {
-        width: 354px;
+//     }
+//     @media screen and (min-width: 768px) {
+//         width: 354px;
         
         
-    }
-    @media screen and (min-width: 1200px) {
+//     }
+//     @media screen and (min-width: 1200px) {
         
-        width: 270px;
+//         width: 270px;
         
-    } 
+//     } 
 }
 .team-list__subtitle {
     font-family: 'Roboto';

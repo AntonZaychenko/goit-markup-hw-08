@@ -624,25 +624,7 @@ header {
 .team-list__img {
   display: block;
   margin-bottom: 30px;
-  max-width: 450px;
-}
-
-@media screen and (min-width: 480px) {
-  .team-list__img {
-    width: 450px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .team-list__img {
-    width: 354px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .team-list__img {
-    width: 270px;
-  }
+  max-width: 100%;
 }
 
 .team-list__subtitle {
@@ -945,25 +927,7 @@ header {
 .team-list__img {
   display: block;
   margin-bottom: 30px;
-  max-width: 450px;
-}
-
-@media screen and (min-width: 480px) {
-  .team-list__img {
-    width: 450px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .team-list__img {
-    width: 354px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .team-list__img {
-    width: 270px;
-  }
+  max-width: 100%;
 }
 
 .team-list__subtitle {
@@ -2006,6 +1970,7 @@ textarea {
   background-color: #fff;
   width: 100%;
   margin: 0 auto;
+  max-height: 796px;
   padding-top: 10px;
   padding-right: 25px;
   display: none;
@@ -2015,6 +1980,10 @@ textarea {
 
 .main-nav.is-open .menu-container {
   display: block;
+  display: flex;
+  flex-direction: column;
+  min-height: 716px;
+  justify-content: space-between;
 }
 
 .main-nav.is-open .logo {
@@ -2075,7 +2044,6 @@ textarea {
 
 .menu-container__cont {
   margin-bottom: 64px;
-  margin-top: 300px;
 }
 
 .link-container__cont {

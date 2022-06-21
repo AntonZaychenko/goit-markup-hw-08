@@ -7,7 +7,7 @@
     background-color: #fff;
     width: 100%;
     margin: 0 auto;
-    
+    max-height: 796px;
     padding-top: 10px;
     padding-right: 25px;
     display: none;
@@ -20,6 +20,11 @@
     &.is-open {
         .menu-container {
             display: block;
+            display: flex;
+            flex-direction: column;
+            min-height: 716px;
+            justify-content: space-between;
+            
         }
         
         .logo {
@@ -76,7 +81,7 @@ transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-container__cont {
     margin-bottom: 64px;
-    margin-top: 300px;
+    
 }
 .link-container__cont {
     font-family: 'Roboto';
